@@ -1,0 +1,7 @@
+1. https://interviewready.io/learn/ai-engineering/what-are-vectors/how-are-vectors-constructed
+3. https://christophergs.com/blog/understanding-llm-tokenization
+4. https://docs.mistral.ai/cookbooks/concept-deep-dive-tokenization-readme
+5. https://www.youtube.com/watch?v=gMOAud7hZg4
+6. https://huggingface.co/docs/optimum/en/concept_guides/quantization
+7. https://research.google/blog/constructing-transformers-for-longer-sequences-with-sparse-attention-methods/
+8. https://research.google/blog/looking-back-at-speculative-decoding/
