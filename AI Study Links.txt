@@ -1,2 +1,3 @@
 1. https://medium.com/@amitsriv99/genai-semantics-vectors-llms-rag-inferences-etc-c7033befcb9c
 2. https://github.com/redbus-labs/mkpro
+https://achan2013.medium.com/ai-agent-anti-patterns-part-1-architectural-pitfalls-that-break-enterprise-agents-before-they-32d211dded43
