@@ -4,16 +4,19 @@ Resources and exploration on AI
 
 ## Overview
 
-Welcome to the AI-Workspace repository! This is a comprehensive collection of resources, experiments, and explorations focused on Artificial Intelligence. The workspace contains a mix of Jupyter notebooks, HTML documentation, and PDF resources for learning, experimentation, and development in the AI domain.
+Welcome to the AI-Workspace repository! This is a comprehensive collection of resources, experiments, and explorations focused on Artificial Intelligence. The workspace contains Jupyter notebooks, Python scripts, comprehensive PDF guides, and HTML documentation for learning, experimentation, and development in the AI domain.
 
 ## Repository Statistics
 
 - **Primary Language**: Jupyter Notebook (55.1%)
-- **HTML Content**: 44.4%
-- **Other Resources**: 0.5%
-- **Created**: March 7, 2026
-- **Last Updated**: June 28, 2026
-- **Visibility**: Public
+- **Content Composition**:
+  - **Jupyter Notebooks (.ipynb)** - Interactive code, experiments, and course implementations
+  - **PDF Guides & References** - Comprehensive educational materials, tutorials, and cheat sheets
+  - **Python Scripts (.py)** - Practical implementations, utility modules, and working examples
+  - **Text Files** - Study links and references
+  - **Configuration Files** - Workspace and project configurations
+
+**Note**: GitHub's language statistics (55.1% Jupyter, 44.4% HTML) represent rendered notebook content displayed in the browser. The actual repository contains Jupyter notebooks, extensive PDF resources, working Python implementations, and supporting documentation.
 
 ## Repository Structure
 
@@ -50,16 +53,29 @@ Comprehensive course materials on building agentic AI systems using modern frame
 ---
 
 ### 🔍 Coursera: Build RAG Applications
-Practical guide to building Retrieval-Augmented Generation systems:
+Practical guide to building Retrieval-Augmented Generation systems with code implementations:
 
 - **Module 1: Introduction to RAG**
+  - Introduction to RAG (PDF guide)
+  - Cheat-sheet-RAG (Reference guide)
+  - Summarize private documents using RAG LangChain and LLMs (Jupyter notebook)
   - Core concepts and fundamentals of RAG systems
   
 - **Module 2: Building Apps with RAG**
-  - Practical application development with RAG
+  - Introduction To Gradio (PDF guide)
+  - **Python Implementations**:
+    - `qabot.py` - Q&A bot implementation
+    - `simple_llm.py` - Simple LLM wrapper
+    - `llm_chat.py` - LLM chat implementation
+    - `common_input_types.py` - Shared input type definitions
+    - `gradio_demo.py` - Gradio UI demonstration
+    - `gradio_string_demo.py` - Gradio string input demo
+  - Practical application development with RAG and UI frameworks
   - Integration patterns and best practices
 
 - **Module 3: Building RAG with LlamaIndex**
+  - Cheat Sheet - Build RAG Apps with LlamaIndex (Reference guide)
+  - Langchain vs Llamaindex (Comparison guide)
   - Deep dive into LlamaIndex framework
   - Advanced RAG implementation techniques
 
@@ -164,35 +180,48 @@ Research and reference materials for agentic AI:
 - **LangChain & LangGraph** - Frameworks for building LLM applications and agent systems
 - **Vector Databases** - Storing and searching embeddings efficiently
 - **Multi-Agent Systems** - Coordinating multiple agents for complex tasks
+- **UI & Application Development** - Building production-ready AI applications with Gradio
 
 ## Contents Breakdown
 
 ### PDF Resources (Educational Materials)
 - **AI Engineering Series**: 11 comprehensive guides from InterviewReady covering vectors, RAG, LLMs, and agents
 - **Agentic AI Guide**: Google's official guide for agentic AI starters
-- **Course Guides**: PDF materials from Coursera courses
-- **Reference Materials**: Additional technical documentation
+- **Course Guides**: PDF materials from Coursera courses including cheat sheets and comparison guides
+- **Reference Materials**: Additional technical documentation and study materials
 
 ### Jupyter Notebooks
 - Interactive code examples and experiments
 - Course-related implementations and exercises
 - Hands-on projects and practical demonstrations
 - Data visualization and analysis notebooks
+- RAG system implementations
+
+### Python Scripts
+- `qabot.py` - Question-answering bot implementation
+- `simple_llm.py` - Simplified LLM wrapper for quick prototyping
+- `llm_chat.py` - Conversational LLM interface
+- `common_input_types.py` - Shared utilities and type definitions
+- `gradio_demo.py` - Gradio UI integration examples
+- `gradio_string_demo.py` - Gradio string input demonstrations
+- Practical implementations accompanying course materials
 
 ### Documentation
 - HTML resources and rendered guides
 - Study links and reference materials
 - Course notes and summaries
+- Workspace configuration files
 
 ## Features
 
 - 📓 **Jupyter Notebooks** - Interactive explorations with executable code
 - 📊 **Visualizations** - Charts, graphs, and visual demonstrations
-- 📚 **PDF Resources** - Comprehensive guides and tutorials
+- 📚 **PDF Resources** - Comprehensive guides, tutorials, and cheat sheets
 - 📖 **HTML Documentation** - Rendered guides and reference materials
 - 🔬 **Course Materials** - Complete modules from Coursera specializations
 - 💡 **Practical Implementations** - Real-world AI applications and patterns
 - 🤖 **Agent Development** - Tools, frameworks, and design patterns for building autonomous agents
+- 🐍 **Python Scripts** - Working code examples and utility modules
 
 ## Learning Path Recommendations
 
@@ -200,22 +229,26 @@ Research and reference materials for agentic AI:
 1. **Start with Basics**: Begin with "AI Engineering by InterviewReady" series for foundational concepts
 2. **Understand RAG**: Progress through "Build RAG Applications" course (Module 1 & 2)
 3. **Get Started with Frameworks**: Take "Getting Started with LangChain and LangGraph" course
+4. **Run Examples**: Execute Python scripts in Module 2 of Build RAG Applications
 
 ### Intermediate Path
-4. **Learn Agent Fundamentals**: Complete "Fundamentals of Building AI Agents" course
-5. **Vector Databases**: Study "Vector Databases for RAG" to optimize your systems
-6. **Advanced RAG**: Complete Module 3 of "Build RAG Applications" with LlamaIndex
+5. **Learn Agent Fundamentals**: Complete "Fundamentals of Building AI Agents" course
+6. **Vector Databases**: Study "Vector Databases for RAG" to optimize your systems
+7. **Advanced RAG**: Complete Module 3 of "Build RAG Applications" with LlamaIndex
+8. **Build Applications**: Extend the Python implementations with your own code
 
 ### Advanced Path
-7. **Agentic Systems**: Explore "Agentic AI with LangGraph, CrewAI, Autogen & BeeAI" course
-8. **Multi-Agent Development**: Build complex systems with "Getting Started with LangChain" Module 3
-9. **Google Agentic AI**: Reference the Google guide for production-level agentic AI patterns
+9. **Agentic Systems**: Explore "Agentic AI with LangGraph, CrewAI, Autogen & BeeAI" course
+10. **Multi-Agent Development**: Build complex systems with "Getting Started with LangChain" Module 3
+11. **Production Deployment**: Use Gradio examples to deploy your applications
+12. **Google Agentic AI**: Reference the Google guide for production-level agentic AI patterns
 
 ### Practical Projects
 - Work through Jupyter notebooks in each course module
 - Implement the design patterns from the AI Engineering guides
 - Build your own RAG application following the course materials
 - Create a multi-agent system using LangGraph
+- Deploy a working application using the Python scripts and Gradio
 
 ## License
 
@@ -229,6 +262,7 @@ Contributions are welcome! Feel free to:
 - Open issues for bugs or suggestions
 - Share your AI explorations and learning experiences
 - Add new resources and learning materials
+- Extend the Python implementations with additional features
 
 ## Contact
 
@@ -236,4 +270,4 @@ For questions or inquiries about this repository, feel free to reach out via [Gi
 
 ---
 
-Happy exploring! 🚀 Dive into the world of AI and discover the latest in machine learning, agent systems, and intelligent applications.
+Happy exploring! 🚀 Dive into the world of AI and discover the latest in machine learning, agent systems, intelligent applications, and practical implementations.
