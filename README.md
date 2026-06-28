@@ -16,8 +16,6 @@ Welcome to the AI-Workspace repository! This is a comprehensive collection of re
   - **Text Files** - Study links and references
   - **Configuration Files** - Workspace and project configurations
 
-**Note**: GitHub's language statistics (55.1% Jupyter, 44.4% HTML) represent rendered notebook content displayed in the browser. The actual repository contains Jupyter notebooks, extensive PDF resources, working Python implementations, and supporting documentation.
-
 ## Repository Structure
 
 This repository is organized into several key modules and resource collections:
